@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 ThemeData light = ThemeData(
-  useMaterial3: false,
+  useMaterial3: true,
   fontFamily: 'Poppins',
-  primaryColor: Color.fromARGB(255, 227, 201, 4),
+  primaryColor: Color.fromARGB(255, 0, 0, 0),
   brightness: Brightness.light,
   cardColor: Colors.white,
   focusColor: const Color(0xFFADC4C8),

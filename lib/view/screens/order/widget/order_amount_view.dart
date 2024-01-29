@@ -1,14 +1,14 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/order_model.dart';
-import 'package:flutter_grocery/helper/price_converter.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/screens/cart/widget/cart_details_view.dart';
-import 'package:flutter_grocery/view/screens/order/widget/order_details_button_view.dart';
+import 'package:eproject_watchub/data/model/response/order_model.dart';
+import 'package:eproject_watchub/helper/price_converter.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/localization/app_localization.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/screens/cart/widget/cart_details_view.dart';
+import 'package:eproject_watchub/view/screens/order/widget/order_details_button_view.dart';
 
 class OrderAmountView extends StatelessWidget {
   final double itemsPrice;

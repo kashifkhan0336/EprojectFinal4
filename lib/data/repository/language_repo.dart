@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_grocery/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/data/model/response/language_model.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:eproject_watchub/data/datasource/remote/dio/dio_client.dart';
+import 'package:eproject_watchub/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/data/model/response/language_model.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
 
 class LanguageRepo {
   final DioClient? dioClient;

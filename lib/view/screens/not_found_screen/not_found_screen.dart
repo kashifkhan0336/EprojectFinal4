@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/footer_view.dart';
-import 'package:flutter_grocery/view/base/web_app_bar/web_app_bar.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/footer_view.dart';
+import 'package:eproject_watchub/view/base/web_app_bar/web_app_bar.dart';
 
 class NotFoundScreen extends StatelessWidget {
   const NotFoundScreen({Key? key}) : super(key: key);

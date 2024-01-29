@@ -1,21 +1,21 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/cart_model.dart';
-import 'package:flutter_grocery/data/model/response/config_model.dart';
-import 'package:flutter_grocery/data/model/response/order_details_model.dart';
-import 'package:flutter_grocery/data/model/response/order_model.dart';
-import 'package:flutter_grocery/data/model/response/product_model.dart';
-import 'package:flutter_grocery/data/model/response/timeslote_model.dart';
-import 'package:flutter_grocery/helper/price_converter.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/provider/cart_provider.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
-import 'package:flutter_grocery/utill/order_constants.dart';
-import 'package:flutter_grocery/view/base/custom_snackbar.dart';
+import 'package:eproject_watchub/data/model/response/cart_model.dart';
+import 'package:eproject_watchub/data/model/response/config_model.dart';
+import 'package:eproject_watchub/data/model/response/order_details_model.dart';
+import 'package:eproject_watchub/data/model/response/order_model.dart';
+import 'package:eproject_watchub/data/model/response/product_model.dart';
+import 'package:eproject_watchub/data/model/response/timeslote_model.dart';
+import 'package:eproject_watchub/helper/price_converter.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/main.dart';
+import 'package:eproject_watchub/provider/cart_provider.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
+import 'package:eproject_watchub/utill/order_constants.dart';
+import 'package:eproject_watchub/view/base/custom_snackbar.dart';
 import 'package:provider/provider.dart';
 
 class OrderHelper{

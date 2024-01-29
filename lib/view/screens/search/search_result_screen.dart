@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/product_type.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/provider/search_provider.dart';
-import 'package:flutter_grocery/utill/color_resources.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/footer_view.dart';
-import 'package:flutter_grocery/view/base/no_data_screen.dart';
-import 'package:flutter_grocery/view/base/product_widget.dart';
-import 'package:flutter_grocery/view/base/web_app_bar/web_app_bar.dart';
-import 'package:flutter_grocery/view/base/web_product_shimmer.dart';
-import 'package:flutter_grocery/view/screens/search/widget/filter_widget.dart';
+import 'package:eproject_watchub/helper/product_type.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/provider/search_provider.dart';
+import 'package:eproject_watchub/utill/color_resources.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/images.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/footer_view.dart';
+import 'package:eproject_watchub/view/base/no_data_screen.dart';
+import 'package:eproject_watchub/view/base/product_widget.dart';
+import 'package:eproject_watchub/view/base/web_app_bar/web_app_bar.dart';
+import 'package:eproject_watchub/view/base/web_product_shimmer.dart';
+import 'package:eproject_watchub/view/screens/search/widget/filter_widget.dart';
 import 'package:provider/provider.dart';
 
 class SearchResultScreen extends StatefulWidget {

@@ -7,33 +7,33 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart' show defaultTargetPlatform, kDebugMode, kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/provider/auth_provider.dart';
-import 'package:flutter_grocery/provider/banner_provider.dart';
-import 'package:flutter_grocery/provider/cart_provider.dart';
-import 'package:flutter_grocery/provider/category_provider.dart';
-import 'package:flutter_grocery/provider/chat_provider.dart';
-import 'package:flutter_grocery/provider/coupon_provider.dart';
-import 'package:flutter_grocery/provider/flash_deal_provider.dart';
-import 'package:flutter_grocery/provider/language_provider.dart';
-import 'package:flutter_grocery/provider/localization_provider.dart';
-import 'package:flutter_grocery/provider/location_provider.dart';
-import 'package:flutter_grocery/provider/news_letter_provider.dart';
-import 'package:flutter_grocery/provider/notification_provider.dart';
-import 'package:flutter_grocery/provider/onboarding_provider.dart';
-import 'package:flutter_grocery/provider/order_provider.dart';
-import 'package:flutter_grocery/provider/product_provider.dart';
-import 'package:flutter_grocery/provider/profile_provider.dart';
-import 'package:flutter_grocery/provider/search_provider.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
-import 'package:flutter_grocery/provider/theme_provider.dart';
-import 'package:flutter_grocery/provider/wallet_provider.dart';
-import 'package:flutter_grocery/provider/wishlist_provider.dart';
-import 'package:flutter_grocery/theme/dark_theme.dart';
-import 'package:flutter_grocery/theme/light_theme.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/view/base/third_party_chat_widget.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/provider/auth_provider.dart';
+import 'package:eproject_watchub/provider/banner_provider.dart';
+import 'package:eproject_watchub/provider/cart_provider.dart';
+import 'package:eproject_watchub/provider/category_provider.dart';
+import 'package:eproject_watchub/provider/chat_provider.dart';
+import 'package:eproject_watchub/provider/coupon_provider.dart';
+import 'package:eproject_watchub/provider/flash_deal_provider.dart';
+import 'package:eproject_watchub/provider/language_provider.dart';
+import 'package:eproject_watchub/provider/localization_provider.dart';
+import 'package:eproject_watchub/provider/location_provider.dart';
+import 'package:eproject_watchub/provider/news_letter_provider.dart';
+import 'package:eproject_watchub/provider/notification_provider.dart';
+import 'package:eproject_watchub/provider/onboarding_provider.dart';
+import 'package:eproject_watchub/provider/order_provider.dart';
+import 'package:eproject_watchub/provider/product_provider.dart';
+import 'package:eproject_watchub/provider/profile_provider.dart';
+import 'package:eproject_watchub/provider/search_provider.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
+import 'package:eproject_watchub/provider/theme_provider.dart';
+import 'package:eproject_watchub/provider/wallet_provider.dart';
+import 'package:eproject_watchub/provider/wishlist_provider.dart';
+import 'package:eproject_watchub/theme/dark_theme.dart';
+import 'package:eproject_watchub/theme/light_theme.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
+import 'package:eproject_watchub/view/base/third_party_chat_widget.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
@@ -66,13 +66,13 @@ Future<void> main() async {
     }
   } else {
     await Firebase.initializeApp(options: const FirebaseOptions(
-        apiKey: "AIzaSyDuBlqmsh9xw17osLOuEn7iqHtDlpkulcM",
-        authDomain: "grofresh-3986f.firebaseapp.com",
-        projectId: "grofresh-3986f",
-        storageBucket: "grofresh-3986f.appspot.com",
-        messagingSenderId: "250728969979",
-        appId: "1:250728969979:web:b79642a7b2d2400b75a25e",
-        measurementId: "G-X1HCG4K8HJ"
+        apiKey: "AIzaSyCkCr-aPft7PslEQ8YxVSzabcdQaxZYcaQ",
+        authDomain: "eproject4-4ce3c.firebaseapp.com",
+        projectId: "eproject4-4ce3c",
+        storageBucket: "eproject4-4ce3c.appspot.com",
+        messagingSenderId: "297549518164",
+        appId: "1:297549518164:web:180df1395f5ec0847d24c1",
+        measurementId: "G-S7BB40W8EX"
     ));
 
     await FacebookAuth.instance.webAndDesktopInitialize(

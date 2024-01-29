@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/price_converter.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/provider/product_provider.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/custom_directionality.dart';
-import 'package:flutter_grocery/view/base/on_hover.dart';
+import 'package:eproject_watchub/helper/price_converter.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/provider/product_provider.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/images.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/custom_directionality.dart';
+import 'package:eproject_watchub/view/base/on_hover.dart';
 import 'package:provider/provider.dart';
 class WebDailyItemView extends StatelessWidget {
   final ProductProvider productProvider;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/provider/wallet_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/view/base/custom_loader.dart';
-import 'package:flutter_grocery/view/base/no_data_screen.dart';
-import 'package:flutter_grocery/view/screens/wallet/widget/history_item.dart';
-import 'package:flutter_grocery/view/screens/wallet/widget/wallet_shimmer.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/provider/wallet_provider.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/view/base/custom_loader.dart';
+import 'package:eproject_watchub/view/base/no_data_screen.dart';
+import 'package:eproject_watchub/view/screens/wallet/widget/history_item.dart';
+import 'package:eproject_watchub/view/screens/wallet/widget/wallet_shimmer.dart';
 import 'package:provider/provider.dart';
 
 

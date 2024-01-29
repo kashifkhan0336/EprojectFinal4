@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/provider/auth_provider.dart';
-import 'package:flutter_grocery/view/base/mars_menu_bar.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/localization/app_localization.dart';
+import 'package:eproject_watchub/provider/auth_provider.dart';
+import 'package:eproject_watchub/view/base/mars_menu_bar.dart';
 import 'package:provider/provider.dart';
 class MenuBarWidget extends StatelessWidget {
   const MenuBarWidget({Key? key}) : super(key: key);

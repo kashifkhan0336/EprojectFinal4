@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/data/model/response/onboarding_model.dart';
-import 'package:flutter_grocery/data/repository/onboarding_repo.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/data/model/response/onboarding_model.dart';
+import 'package:eproject_watchub/data/repository/onboarding_repo.dart';
 
 class OnBoardingProvider with ChangeNotifier {
   final OnBoardingRepo? onboardingRepo;

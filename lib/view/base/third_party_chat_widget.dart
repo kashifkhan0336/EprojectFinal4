@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/config_model.dart';
+import 'package:eproject_watchub/data/model/response/config_model.dart';
 
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/images.dart';
 import 'package:simple_speed_dial/simple_speed_dial.dart';
 import 'package:url_launcher/url_launcher.dart';
 

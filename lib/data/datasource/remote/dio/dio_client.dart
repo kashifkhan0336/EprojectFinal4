@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_grocery/data/datasource/remote/dio/logging_interceptor.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:eproject_watchub/data/datasource/remote/dio/logging_interceptor.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class DioClient {

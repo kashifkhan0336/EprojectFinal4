@@ -1,4 +1,4 @@
-package com.sixamtech.grofresh
+package com.eproject.watchhub
 
 import io.flutter.embedding.android.FlutterActivity
 

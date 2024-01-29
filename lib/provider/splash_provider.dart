@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/data/model/response/config_model.dart';
-import 'package:flutter_grocery/data/model/response/offline_payment_model.dart';
-import 'package:flutter_grocery/data/repository/splash_repo.dart';
-import 'package:flutter_grocery/helper/api_checker.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/provider/auth_provider.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/view/base/custom_snackbar.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/data/model/response/config_model.dart';
+import 'package:eproject_watchub/data/model/response/offline_payment_model.dart';
+import 'package:eproject_watchub/data/repository/splash_repo.dart';
+import 'package:eproject_watchub/helper/api_checker.dart';
+import 'package:eproject_watchub/main.dart';
+import 'package:eproject_watchub/provider/auth_provider.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
+import 'package:eproject_watchub/view/base/custom_snackbar.dart';
 import 'package:provider/provider.dart';
 
 class SplashProvider extends ChangeNotifier {

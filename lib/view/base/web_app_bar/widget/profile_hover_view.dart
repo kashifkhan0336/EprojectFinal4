@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/text_hover.dart';
-import 'package:flutter_grocery/view/screens/menu/web_menu/menu_screen_web.dart';
-import 'package:flutter_grocery/view/screens/menu/widget/sign_out_confirmation_dialog.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/images.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/text_hover.dart';
+import 'package:eproject_watchub/view/screens/menu/web_menu/menu_screen_web.dart';
+import 'package:eproject_watchub/view/screens/menu/widget/sign_out_confirmation_dialog.dart';
 
 class ProfileHoverView extends StatelessWidget {
   const ProfileHoverView({Key? key}) : super(key: key);

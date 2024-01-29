@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/data/model/response/product_model.dart';
-import 'package:flutter_grocery/data/model/response/wishlist_model.dart';
-import 'package:flutter_grocery/data/repository/wishlist_repo.dart';
-import 'package:flutter_grocery/helper/api_checker.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/view/base/custom_snackbar.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/data/model/response/product_model.dart';
+import 'package:eproject_watchub/data/model/response/wishlist_model.dart';
+import 'package:eproject_watchub/data/repository/wishlist_repo.dart';
+import 'package:eproject_watchub/helper/api_checker.dart';
+import 'package:eproject_watchub/localization/app_localization.dart';
+import 'package:eproject_watchub/view/base/custom_snackbar.dart';
 
 
 class WishListProvider extends ChangeNotifier {

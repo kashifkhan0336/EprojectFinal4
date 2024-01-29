@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/data/model/response/coupon_model.dart';
-import 'package:flutter_grocery/data/repository/coupon_repo.dart';
-import 'package:flutter_grocery/helper/api_checker.dart';
-import 'package:flutter_grocery/helper/price_converter.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/view/base/custom_snackbar.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/data/model/response/coupon_model.dart';
+import 'package:eproject_watchub/data/repository/coupon_repo.dart';
+import 'package:eproject_watchub/helper/api_checker.dart';
+import 'package:eproject_watchub/helper/price_converter.dart';
+import 'package:eproject_watchub/localization/app_localization.dart';
+import 'package:eproject_watchub/main.dart';
+import 'package:eproject_watchub/view/base/custom_snackbar.dart';
 
 class CouponProvider extends ChangeNotifier {
   final CouponRepo? couponRepo;

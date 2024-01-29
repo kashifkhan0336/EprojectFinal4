@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:flutter_grocery/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_grocery/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_grocery/data/model/body/review_body.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:eproject_watchub/data/datasource/remote/dio/dio_client.dart';
+import 'package:eproject_watchub/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:eproject_watchub/data/model/body/review_body.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
 import 'package:http/http.dart' as http;
 
 class ProductDetailsRepo {

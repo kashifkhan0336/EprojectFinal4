@@ -1,15 +1,15 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/price_converter.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/provider/coupon_provider.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/custom_directionality.dart';
-import 'package:flutter_grocery/view/base/custom_snackbar.dart';
-import 'package:flutter_grocery/view/screens/cart/widget/delivery_option_button.dart';
+import 'package:eproject_watchub/helper/price_converter.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/provider/coupon_provider.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/images.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/custom_directionality.dart';
+import 'package:eproject_watchub/view/base/custom_snackbar.dart';
+import 'package:eproject_watchub/view/screens/cart/widget/delivery_option_button.dart';
 import 'package:provider/provider.dart';
 
 class CartDetailsView extends StatelessWidget {
@@ -69,7 +69,7 @@ class CartDetailsView extends StatelessWidget {
 
           Consumer<CouponProvider>(
             builder: (context, couponProvider, child) {
-              return CouponView(couponController: _couponController, total: _total, deliveryCharge: deliveryCharge);
+              return Container();
             },
           ),
           const SizedBox(height: Dimensions.paddingSizeLarge),

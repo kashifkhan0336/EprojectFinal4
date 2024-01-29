@@ -1,12 +1,12 @@
-import 'package:flutter_grocery/data/model/response/language_model.dart';
-import 'package:flutter_grocery/helper/app_mode.dart';
+import 'package:eproject_watchub/data/model/response/language_model.dart';
+import 'package:eproject_watchub/helper/app_mode.dart';
 import 'images.dart';
 
 class AppConstants {
-  static const String appName = 'GroFresh';
-  static const double appVersion = 7.2;
+  static const String appName = 'WatchHub';
+  static const double appVersion = 1.0;
   static const AppMode appMode = AppMode.release;
-  static const String baseUrl = 'http://192.168.0.105';
+  static const String baseUrl = 'http://eproject4.loseyourip.com';
   static const String configUri = '/api/v1/config';
   static const String bannerUri = '/api/v1/banners';
   static const String categoryUri = '/api/v1/categories';

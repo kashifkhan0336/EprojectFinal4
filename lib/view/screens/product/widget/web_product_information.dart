@@ -1,16 +1,16 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/product_model.dart';
-import 'package:flutter_grocery/helper/price_converter.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/provider/cart_provider.dart';
-import 'package:flutter_grocery/provider/product_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/custom_directionality.dart';
-import 'package:flutter_grocery/view/base/rating_bar.dart';
-import 'package:flutter_grocery/view/base/wish_button.dart';
-import 'package:flutter_grocery/view/screens/product/widget/variation_view.dart';
+import 'package:eproject_watchub/data/model/response/product_model.dart';
+import 'package:eproject_watchub/helper/price_converter.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/provider/cart_provider.dart';
+import 'package:eproject_watchub/provider/product_provider.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/custom_directionality.dart';
+import 'package:eproject_watchub/view/base/rating_bar.dart';
+import 'package:eproject_watchub/view/base/wish_button.dart';
+import 'package:eproject_watchub/view/screens/product/widget/variation_view.dart';
 import 'package:provider/provider.dart';
 
 import 'product_title_view.dart';

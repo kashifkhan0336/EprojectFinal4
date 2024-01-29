@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/provider/category_provider.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
-import 'package:flutter_grocery/provider/theme_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/custom_image.dart';
-import 'package:flutter_grocery/view/base/title_widget.dart';
-import 'package:flutter_grocery/view/screens/home/web/web_categories.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/provider/category_provider.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
+import 'package:eproject_watchub/provider/theme_provider.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/custom_image.dart';
+import 'package:eproject_watchub/view/base/title_widget.dart';
+import 'package:eproject_watchub/view/screens/home/web/web_categories.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 

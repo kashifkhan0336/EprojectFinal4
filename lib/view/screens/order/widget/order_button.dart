@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/provider/order_provider.dart';
-import 'package:flutter_grocery/utill/color_resources.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/custom_directionality.dart';
+import 'package:eproject_watchub/provider/order_provider.dart';
+import 'package:eproject_watchub/utill/color_resources.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/custom_directionality.dart';
 import 'package:provider/provider.dart';
 
 class OrderButton extends StatelessWidget {

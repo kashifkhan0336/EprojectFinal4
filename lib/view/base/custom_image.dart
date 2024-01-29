@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_grocery/utill/images.dart';
+import 'package:eproject_watchub/utill/images.dart';
 
 class CustomImage extends StatelessWidget {
   final String image;

@@ -1,20 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/cart_model.dart';
-import 'package:flutter_grocery/helper/price_converter.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/provider/cart_provider.dart';
-import 'package:flutter_grocery/provider/coupon_provider.dart';
-import 'package:flutter_grocery/provider/product_provider.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
-import 'package:flutter_grocery/provider/theme_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/custom_directionality.dart';
-import 'package:flutter_grocery/view/base/custom_image.dart';
-import 'package:flutter_grocery/view/base/custom_snackbar.dart';
+import 'package:eproject_watchub/data/model/response/cart_model.dart';
+import 'package:eproject_watchub/helper/price_converter.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/provider/cart_provider.dart';
+import 'package:eproject_watchub/provider/coupon_provider.dart';
+import 'package:eproject_watchub/provider/product_provider.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
+import 'package:eproject_watchub/provider/theme_provider.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/custom_directionality.dart';
+import 'package:eproject_watchub/view/base/custom_image.dart';
+import 'package:eproject_watchub/view/base/custom_snackbar.dart';
 import 'package:provider/provider.dart';
 
 class CartProductWidget extends StatelessWidget {

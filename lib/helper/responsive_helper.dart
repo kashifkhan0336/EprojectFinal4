@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:flutter_grocery/main.dart';
+import 'package:eproject_watchub/main.dart';
 
 class ResponsiveHelper {
 

@@ -1,10 +1,10 @@
 
 import 'package:dio/dio.dart';
-import 'package:flutter_grocery/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_grocery/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:eproject_watchub/data/datasource/remote/dio/dio_client.dart';
+import 'package:eproject_watchub/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/localization/app_localization.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SearchRepo {

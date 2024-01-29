@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/data/model/response/category_model.dart';
-import 'package:flutter_grocery/data/model/response/product_model.dart';
-import 'package:flutter_grocery/data/repository/category_repo.dart';
-import 'package:flutter_grocery/helper/api_checker.dart';
-import 'package:flutter_grocery/provider/localization_provider.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/data/model/response/category_model.dart';
+import 'package:eproject_watchub/data/model/response/product_model.dart';
+import 'package:eproject_watchub/data/repository/category_repo.dart';
+import 'package:eproject_watchub/helper/api_checker.dart';
+import 'package:eproject_watchub/provider/localization_provider.dart';
 import 'package:provider/provider.dart';
 
 class CategoryProvider extends ChangeNotifier {

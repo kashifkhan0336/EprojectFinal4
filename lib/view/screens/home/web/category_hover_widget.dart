@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/category_model.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/color_resources.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/view/base/text_hover.dart';
+import 'package:eproject_watchub/data/model/response/category_model.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/main.dart';
+import 'package:eproject_watchub/utill/color_resources.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/view/base/text_hover.dart';
 
 class CategoryHoverWidget extends StatelessWidget {
   final List<CategoryModel>? categoryList;

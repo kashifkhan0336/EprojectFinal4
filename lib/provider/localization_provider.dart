@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_grocery/data/repository/language_repo.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/view/screens/home/home_screens.dart';
+import 'package:eproject_watchub/data/datasource/remote/dio/dio_client.dart';
+import 'package:eproject_watchub/data/repository/language_repo.dart';
+import 'package:eproject_watchub/main.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
+import 'package:eproject_watchub/view/screens/home/home_screens.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalizationProvider extends ChangeNotifier {

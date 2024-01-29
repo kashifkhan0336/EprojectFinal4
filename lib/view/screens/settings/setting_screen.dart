@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
-import 'package:flutter_grocery/provider/theme_provider.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/app_bar_base.dart';
-import 'package:flutter_grocery/view/base/custom_dialog.dart';
-import 'package:flutter_grocery/view/base/main_app_bar.dart';
-import 'package:flutter_grocery/view/screens/settings/widget/currency_dialog.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
+import 'package:eproject_watchub/provider/theme_provider.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/app_bar_base.dart';
+import 'package:eproject_watchub/view/base/custom_dialog.dart';
+import 'package:eproject_watchub/view/base/main_app_bar.dart';
+import 'package:eproject_watchub/view/screens/settings/widget/currency_dialog.dart';
 import 'package:provider/provider.dart';
 
 import '../../../provider/auth_provider.dart';

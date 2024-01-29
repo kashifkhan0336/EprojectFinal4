@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/data/model/response/notification_model.dart';
-import 'package:flutter_grocery/data/repository/notification_repo.dart';
-import 'package:flutter_grocery/helper/api_checker.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/data/model/response/notification_model.dart';
+import 'package:eproject_watchub/data/repository/notification_repo.dart';
+import 'package:eproject_watchub/helper/api_checker.dart';
 
 class NotificationProvider extends ChangeNotifier {
   final NotificationRepo? notificationRepo;

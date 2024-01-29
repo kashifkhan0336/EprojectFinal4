@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/config_model.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
+import 'package:eproject_watchub/data/model/response/config_model.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
 import 'package:provider/provider.dart';
 
 class PriceConverter {

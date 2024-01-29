@@ -4,37 +4,37 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/html_type.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/helper/route_helper.dart';
-import 'package:flutter_grocery/localization/language_constraints.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/provider/cart_provider.dart';
-import 'package:flutter_grocery/provider/location_provider.dart';
-import 'package:flutter_grocery/provider/profile_provider.dart';
-import 'package:flutter_grocery/provider/splash_provider.dart';
-import 'package:flutter_grocery/provider/theme_provider.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/custom_snackbar.dart';
-import 'package:flutter_grocery/view/base/third_party_chat_widget.dart';
-import 'package:flutter_grocery/view/screens/address/address_screen.dart';
-import 'package:flutter_grocery/view/screens/cart/cart_screen.dart';
-import 'package:flutter_grocery/view/screens/category/all_category_screen.dart';
-import 'package:flutter_grocery/view/screens/chat/chat_screen.dart';
-import 'package:flutter_grocery/view/screens/coupon/coupon_screen.dart';
-import 'package:flutter_grocery/view/screens/home/home_screens.dart';
-import 'package:flutter_grocery/view/screens/html/html_viewer_screen.dart';
-import 'package:flutter_grocery/view/screens/loyalty_screen/loyalty_screen.dart';
-import 'package:flutter_grocery/view/screens/menu/widget/custom_drawer.dart';
-import 'package:flutter_grocery/view/screens/order/my_order_screen.dart';
-import 'package:flutter_grocery/view/screens/order/order_search_screen.dart';
-import 'package:flutter_grocery/view/screens/refer_and_earn/refer_and_earn_screen.dart';
-import 'package:flutter_grocery/view/screens/settings/setting_screen.dart';
-import 'package:flutter_grocery/view/screens/wallet/wallet_screen.dart';
-import 'package:flutter_grocery/view/screens/wishlist/wishlist_screen.dart';
+import 'package:eproject_watchub/helper/html_type.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/helper/route_helper.dart';
+import 'package:eproject_watchub/localization/language_constraints.dart';
+import 'package:eproject_watchub/main.dart';
+import 'package:eproject_watchub/provider/cart_provider.dart';
+import 'package:eproject_watchub/provider/location_provider.dart';
+import 'package:eproject_watchub/provider/profile_provider.dart';
+import 'package:eproject_watchub/provider/splash_provider.dart';
+import 'package:eproject_watchub/provider/theme_provider.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
+import 'package:eproject_watchub/utill/images.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/custom_snackbar.dart';
+import 'package:eproject_watchub/view/base/third_party_chat_widget.dart';
+import 'package:eproject_watchub/view/screens/address/address_screen.dart';
+import 'package:eproject_watchub/view/screens/cart/cart_screen.dart';
+import 'package:eproject_watchub/view/screens/category/all_category_screen.dart';
+import 'package:eproject_watchub/view/screens/chat/chat_screen.dart';
+import 'package:eproject_watchub/view/screens/coupon/coupon_screen.dart';
+import 'package:eproject_watchub/view/screens/home/home_screens.dart';
+import 'package:eproject_watchub/view/screens/html/html_viewer_screen.dart';
+import 'package:eproject_watchub/view/screens/loyalty_screen/loyalty_screen.dart';
+import 'package:eproject_watchub/view/screens/menu/widget/custom_drawer.dart';
+import 'package:eproject_watchub/view/screens/order/my_order_screen.dart';
+import 'package:eproject_watchub/view/screens/order/order_search_screen.dart';
+import 'package:eproject_watchub/view/screens/refer_and_earn/refer_and_earn_screen.dart';
+import 'package:eproject_watchub/view/screens/settings/setting_screen.dart';
+import 'package:eproject_watchub/view/screens/wallet/wallet_screen.dart';
+import 'package:eproject_watchub/view/screens/wishlist/wishlist_screen.dart';
 import 'package:provider/provider.dart';
 
 
@@ -48,18 +48,18 @@ List<MainScreenModel> screenList = [
   MainScreenModel(const MyOrderScreen(), 'my_order', Images.orderList),
   MainScreenModel(const OrderSearchScreen(), 'track_order', Images.orderDetails),
   MainScreenModel(const AddressScreen(), 'address', Images.location),
-  MainScreenModel(const CouponScreen(), 'coupon', Images.coupon),
+  // MainScreenModel(const CouponScreen(), 'coupon', Images.coupon),
   MainScreenModel(const ChatScreen(orderModel: null,), 'live_chat', Images.chat),
   MainScreenModel(const SettingsScreen(), 'settings', Images.settings),
   if(Provider.of<SplashProvider>(Get.context!, listen: false).configModel!.walletStatus!)
     MainScreenModel(const WalletScreen(), 'wallet', Images.wallet),
   if(Provider.of<SplashProvider>(Get.context!, listen: false).configModel!.loyaltyPointStatus!)
     MainScreenModel(const LoyaltyScreen(), 'loyalty_point', Images.loyaltyIcon),
-  MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.termsAndCondition), 'terms_and_condition', Images.termsAndConditions),
-  MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.privacyPolicy), 'privacy_policy', Images.privacy),
-  MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.aboutUs), 'about_us', Images.aboutUs),
+  // MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.termsAndCondition), 'terms_and_condition', Images.termsAndConditions),
+  // MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.privacyPolicy), 'privacy_policy', Images.privacy),
+  // MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.aboutUs), 'about_us', Images.aboutUs),
   if(Provider.of<SplashProvider>(Get.context!, listen: false).configModel!.returnPolicyStatus!)
-    MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.returnPolicy), 'return_policy', Images.returnPolicy),
+    // MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.returnPolicy), 'return_policy', Images.returnPolicy),
 
   if(Provider.of<SplashProvider>(Get.context!, listen: false).configModel!.refundPolicyStatus!)
     MainScreenModel(const HtmlViewerScreen(htmlType: HtmlType.refundPolicy), 'refund_policy', Images.refundPolicy),

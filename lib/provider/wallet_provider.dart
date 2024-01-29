@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/body/wallet_filter_body.dart';
-import 'package:flutter_grocery/data/model/response/base/api_response.dart';
-import 'package:flutter_grocery/data/model/response/wallet_bonus_model.dart';
-import 'package:flutter_grocery/data/model/response/wallet_model.dart';
-import 'package:flutter_grocery/data/repository/wallet_repo.dart';
-import 'package:flutter_grocery/helper/api_checker.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
-import 'package:flutter_grocery/utill/images.dart';
-import 'package:flutter_grocery/view/screens/wallet/wallet_screen.dart';
+import 'package:eproject_watchub/data/model/body/wallet_filter_body.dart';
+import 'package:eproject_watchub/data/model/response/base/api_response.dart';
+import 'package:eproject_watchub/data/model/response/wallet_bonus_model.dart';
+import 'package:eproject_watchub/data/model/response/wallet_model.dart';
+import 'package:eproject_watchub/data/repository/wallet_repo.dart';
+import 'package:eproject_watchub/helper/api_checker.dart';
+import 'package:eproject_watchub/localization/app_localization.dart';
+import 'package:eproject_watchub/main.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
+import 'package:eproject_watchub/utill/images.dart';
+import 'package:eproject_watchub/view/screens/wallet/wallet_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'profile_provider.dart';

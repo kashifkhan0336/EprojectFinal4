@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/provider/auth_provider.dart';
-import 'package:flutter_grocery/utill/styles.dart';
-import 'package:flutter_grocery/view/base/custom_loader.dart';
+import 'package:eproject_watchub/provider/auth_provider.dart';
+import 'package:eproject_watchub/utill/styles.dart';
+import 'package:eproject_watchub/view/base/custom_loader.dart';
 import 'package:provider/provider.dart';
 import '../../../../utill/dimensions.dart';
 import '../../../base/custom_button.dart';

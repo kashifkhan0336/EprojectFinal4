@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:flutter_grocery/data/model/response/cart_model.dart';
-import 'package:flutter_grocery/utill/app_constants.dart';
+import 'package:eproject_watchub/data/model/response/cart_model.dart';
+import 'package:eproject_watchub/utill/app_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CartRepo{

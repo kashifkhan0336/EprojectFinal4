@@ -1,4 +1,4 @@
-import 'package:flutter_grocery/data/model/response/product_model.dart';
+import 'package:eproject_watchub/data/model/response/product_model.dart';
 
 class CartModel {
   int? _id;

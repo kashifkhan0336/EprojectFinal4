@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/helper/responsive_helper.dart';
-import 'package:flutter_grocery/main.dart';
-import 'package:flutter_grocery/utill/dimensions.dart';
+import 'package:eproject_watchub/helper/responsive_helper.dart';
+import 'package:eproject_watchub/main.dart';
+import 'package:eproject_watchub/utill/dimensions.dart';
 
 void showCustomSnackBar(String message, {bool isError = true, Duration? duration}) {
   ScaffoldMessenger.of(Get.context!).clearSnackBars();

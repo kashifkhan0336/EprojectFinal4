@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
+import 'package:eproject_watchub/localization/app_localization.dart';
 import '../data/model/response/base/api_response.dart';
 import '../data/repository/news_letter_repo.dart';
 import '../view/base/custom_snackbar.dart';

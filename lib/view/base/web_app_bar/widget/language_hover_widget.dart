@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/data/model/response/language_model.dart';
-import 'package:flutter_grocery/localization/app_localization.dart';
-import 'package:flutter_grocery/provider/language_provider.dart';
-import 'package:flutter_grocery/view/base/text_hover.dart';
-import 'package:flutter_grocery/view/screens/home/home_screens.dart';
+import 'package:eproject_watchub/data/model/response/language_model.dart';
+import 'package:eproject_watchub/localization/app_localization.dart';
+import 'package:eproject_watchub/provider/language_provider.dart';
+import 'package:eproject_watchub/view/base/text_hover.dart';
+import 'package:eproject_watchub/view/screens/home/home_screens.dart';
 import 'package:provider/provider.dart';
 
 import '../../../../../provider/localization_provider.dart';

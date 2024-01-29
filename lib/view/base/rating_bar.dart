@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grocery/utill/color_resources.dart';
+import 'package:eproject_watchub/utill/color_resources.dart';
 
 class RatingBar extends StatelessWidget {
   final double rating;
