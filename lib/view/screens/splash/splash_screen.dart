@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:connectivity/connectivity.dart';
+import 'package:eproject_watchub/view/screens/auth/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:eproject_watchub/helper/responsive_helper.dart';
 import 'package:eproject_watchub/localization/app_localization.dart';
@@ -87,7 +88,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Navigator.of(context).pushNamedAndRemoveUntil(RouteHelper.menu, (route) => false, arguments: const MenuScreen());
             } else {
               if(Provider.of<SplashProvider>(context, listen: false).showIntro()) {
-                Navigator.pushNamedAndRemoveUntil(context, RouteHelper.onBoarding, (route) => false, arguments: OnBoardingScreen());
+                Navigator.of(context).pushReplacementNamed(RouteHelper.login, arguments: const LoginScreen());
 
               }else {
                 Navigator.of(context).pushNamedAndRemoveUntil(RouteHelper.menu, (route) => false, arguments: const MenuScreen());

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 ThemeData dark = ThemeData(
   useMaterial3: false,
   fontFamily: 'Poppins',
-  primaryColor: const Color(0xFF82CAB6),
+  primaryColor: Color.fromARGB(255, 255, 255, 255),
   brightness: Brightness.dark,
   scaffoldBackgroundColor: const Color(0xFF2C2C2C),
   cardColor: const Color(0xFF121212),
